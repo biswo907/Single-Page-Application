@@ -21,3 +21,62 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+# 💖💖💖
+
+# App.scss😍
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+# Color.scss😍
+$first:white;
+$second:black;
+$third:purple;
+$dark:rgb(44,44,44);
+$text1:"Roboto";
+$text2: cursive;
+
+# 💖💖💖Header.jsx
+
+import React from 'react'
+import { Link } from "react-router-dom";
+
+function Header(){
+  return (
+    <>
+    <nav>
+      <h1>TechStar</h1>
+      <main>
+        <link to={"/"}>Home</link>
+        <link to={"/content"}>Content</link>
+        <link to={"/#about"}>About</link>
+        <link to={"/#brands"}>Brands</link>
+        <link to={"/#service"}>Service</link>
+      </main>
+    </nav>
+    </>
+  )
+}
+
+export default Header;
+
+
+# 💖💖💖
+  animation: imgUp 0.7s linear infinite alternate;
+
+  home.scss👉Line No 151
+
+  👉npm i react-router-hash-link ==>Use Single Page 
+
+  👉npm i react-responsive-carousel ==> Make Responssive
